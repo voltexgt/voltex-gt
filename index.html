@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voltex GT | Servicios Eléctricos Profesionales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0a0a23;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #14142b;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #f8d31a;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091870622-5c46a1a3b0c9') center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      background-blend-mode: multiply;
+      background-color: rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      font-size: 2.8rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #0a0a23;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-box {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #f8d31a;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #0a0a23;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Voltex GT</h1>
+    <p>Servicios Eléctricos Residenciales e Industriales</p>
+  </header>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="hero">
+    <h2>Soluciones Eléctricas Confiables y Profesionales</h2>
+  </div>
+  <section id="servicios">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Instalaciones Residenciales</h3>
+        <p>Realizamos instalaciones eléctricas seguras y eficientes para hogares, con materiales certificados y atención a cada detalle.</p>
+      </div>
+      <div class="service-box">
+        <h3>Servicios Industriales</h3>
+        <p>Mantenimiento, diseño y ejecución de proyectos eléctricos para empresas y fábricas, adaptándonos a normas y regulaciones vigentes.</p>
+      </div>
+      <div class="service-box">
+        <h3>Constructoras</h3>
+        <p>Colaboramos con constructoras en proyectos eléctricos integrales, desde la planificación hasta la ejecución final.</p>
+      </div>
+      <div class="service-box">
+        <h3>Atención a Domicilio</h3>
+        <p>Contamos con personal técnico calificado para resolver fallas o realizar instalaciones directamente en su domicilio o empresa.</p>
+      </div>
+    </div>
+  </section>
+  <section id="sobre">
+    <h2 class="section-title">Sobre Nosotros</h2>
+    <p>En <strong>Voltex GT</strong>, somos técnicos eléctricos egresados de <strong>INTECAP</strong> con sólida formación teórica y práctica. Nos caracterizamos por brindar un servicio profesional, puntual y con enfoque en la seguridad. Nuestra experiencia en distintos sectores nos permite adaptarnos a las necesidades específicas de cada cliente.</p>
+    <p>Trabajamos con ética, compromiso y responsabilidad para ofrecer siempre soluciones duraderas y de calidad.</p>
+  </section>
+  <section id="contacto">
+    <h2 class="section-title">Contacto</h2>
+    <p>¿Necesitas un servicio eléctrico? ¡Estamos para ayudarte!</p>
+    <div class="contact-info">
+      <p><strong>Teléfono:</strong> <a href="tel:+50255754384" style="color:#f8d31a; text-decoration:none;">5575-4384</a></p>
+      <p><strong>Servicios a domicilio:</strong> Sí, cubrimos zonas urbanas y rurales.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Voltex GT - Todos los derechos reservados</p>
+    <p>Síguenos en redes sociales (próximamente)</p>
+  </footer>
+</body>
+</html>
